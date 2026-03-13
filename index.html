@@ -4098,9 +4098,11 @@ position: relative;
 padding-left: 1.75rem;
 }
 </style>
-<pre class="shiki cursor-dark" style="
+<!-- Dark theme code -->
+<pre class="shiki cursor-dark media-dark" style="
 background-color: transparent;
-color: #e4e4e4eb;
+color: #e4e4e4eb; 
+font-weight: 500;
 " tabindex="0"><code><span class="line"><span style="color:#E394DC">"use client"</span><span style="color:#E4E4E4EB">;</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#83D6C5">import</span><span style="color:#94C1FA"> React</span><span style="color:#E4E4E4EB">, { </span><span style="color:#94C1FA">useState</span><span style="color:#E4E4E4EB"> } </span><span style="color:#83D6C5">from</span><span style="color:#E394DC"> "react"</span><span style="color:#E4E4E4EB">;</span></span>
@@ -4119,6 +4121,30 @@ color: #e4e4e4eb;
 <span class="line"><span style="color:#A4A4A4">    &lt;/</span><span style="color:#FAD075">div</span><span style="color:#A4A4A4">&gt;</span></span>
 <span class="line"><span style="color:#E4E4E4EB">  );</span></span>
 <span class="line"><span style="color:#E4E4E4EB">}</span></span></code></pre>
+
+<!-- Light theme code -->
+<pre class="shiki cursor-light media-light" style="
+background-color: transparent;
+color: #393a34; 
+font-weight: 500;
+" tabindex="0"><code><span class="line"><span style="color:#aa52a2">"use client"</span><span style="color:#393A34">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#b3003f">import</span><span style="color:#252525"> React</span><span style="color:#252525">, { </span><span style="color:#252525">useState</span><span style="color:#252525"> } </span><span style="color:#252525">from</span><span style="color:#aa52a2"> "react"</span><span style="color:#393A34">;</span></span>
+<span class="line"><span style="color:#b3003f">import</span><span style="color:#252525"> Navigation</span><span style="color:#b3003f"> from</span><span style="color:#aa52a2"> "./Navigation"</span><span style="color:#393A34">;</span></span>
+<span class="line"><span style="color:#b3003f">import</span><span style="color:#252525"> SupportChat</span><span style="color:#b3003f"> from</span><span style="color:#aa52a2"> "./SupportChat"</span><span style="color:#393A34">;</span></span>
+<span class="line"></span>
+<span class="line" style="display: inline-block; width: 100%; background-color: rgba(200, 200, 200, 0.3);"><span style="color:#b3003f">export</span><span style="color:#b3003f"> default</span><span style="color:#b3003f"> function</span><span style="color:#db704b"> Dashboard</span><span style="color:#db704b">() {</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#b3003f">return</span><span style="color:#db704b"> (</span></span>
+<span class="line"><span style="color:#808080">  &lt;</span><span style="color:#228b67">div </span><span style="color:#6049b3">className</span><span style="color:#252525">=</span><span style="color:#aa52a2">"flex h-[600px] border rounded-lg overflow-hidden"</span><span style="color:#808080">&gt;</span></span>
+<span class="line"><span style="color:#808080">      &lt;</span><span style="color:#228b67">div </span><span style="color:#6049b3">className</span><span style="color:#393A34">=</span><span style="color:#aa52a2">"w-64 border-r"</span><span style="color:#808080">&gt;</span></span>
+<span class="line"><span style="color:#808080">      &lt;/</span><span style="color:#228b67">div</span><span style="color:#808080">&gt;</span></span>
+<span class="line"><span style="color:#808080">      &lt;</span><span style="color:#228b67">div </span><span style="color:#6049b3">className</span><span style="color:#393A34">=</span><span style="color:#aa52a2">"w-80 border-l"</span><span style="color:#808080">&gt;</span></span>
+<span class="line"><span style="color:#808080">        &lt;</span><span style="color:#228b67">SupportChat</span><span style="color:#808080"> /&gt;</span></span>
+<span class="line"><span style="color:#808080">      &lt;/</span><span style="color:#228b67">div</span><span style="color:#808080">&gt;</span></span>
+<span class="line"><span style="color:#808080">    &lt;/</span><span style="color:#228b67">div</span><span style="color:#808080">&gt;</span></span>
+<span class="line"><span style="color:#393A34">  );</span></span>
+<span class="line"><span style="color:#393A34">}</span></span></code></pre>
 <div class="ghost-add-background" style="
 position: absolute;
 left: 8px;
